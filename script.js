@@ -68,4 +68,8 @@ function playGame() {
     }
 }
 
+const BUTTON_ROCK = document.querySelector(".button-rock")
+const BUTTON_PAPER = document.querySelector(".button-paper")
+const BUTTON_SCISSORS = document.querySelector(".button-scissors")
+
 console.log(playGame())
