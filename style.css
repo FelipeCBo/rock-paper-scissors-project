@@ -1,6 +1,7 @@
-.body-container {
+.container {
     width: auto;
-    height: 500px;
+    min-height: 200px;
+    max-height: 500px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -20,4 +21,12 @@
     align-items: center;
     display: flex;
     font-size: 40px;
+}
+
+#console {
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px;
+    line-height: 2;
 }
